@@ -99,6 +99,6 @@ public void user_calls_api_with_http_request(String string, String method) {
 		System.out.println(" Place id is    "  +place_id);
 		
 		 payload =given().spec(req).body(data.deletePlacePaylaod(place_id));
-	   
+	   //testing for github
 	}
 }
