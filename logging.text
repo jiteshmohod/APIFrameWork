@@ -1,0 +1,117 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 30.4585245,
+        "lng": -36.25487,
+        "longitude": 0.0,
+        "latitude": 0.0
+    },
+    "name": "Punjab",
+    "accuracy": "50",
+    "phone_number": 9922545,
+    "address": "Bhatinda",
+    "types": [
+        "Car",
+        "Banana"
+    ],
+    "website": "www.manewada1.com",
+    "language": "Punjabi"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Jun 2025 05:48:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d8adb657c59252a2b0ff3ccd0a9d5b1e",
+    "scope": "APP",
+    "reference": "87897aa46e07ef5d68d67de58089ac3087897aa46e07ef5d68d67de58089ac30",
+    "id": "87897aa46e07ef5d68d67de58089ac30"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d8adb657c59252a2b0ff3ccd0a9d5b1e
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=d8adb657c59252a2b0ff3ccd0a9d5b1e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Jun 2025 05:48:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 212
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "30.4585245",
+        "longitude": "-36.25487"
+    },
+    "accuracy": "50",
+    "name": "Punjab",
+    "phone_number": "9922545",
+    "address": "Bhatinda",
+    "types": "Car,Banana",
+    "website": "www.manewada1.com",
+    "language": "Punjabi"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "d8adb657c59252a2b0ff3ccd0a9d5b1e"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Jun 2025 05:48:52 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
